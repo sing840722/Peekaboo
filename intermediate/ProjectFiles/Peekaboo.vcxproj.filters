@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Peekaboo.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{B80251B5-57F8-4E68-97BA-68AF2D8B4106}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Peekaboo.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\PeekabooEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{4044C55A-092F-4689-9BEF-AB3AC15240D7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Peekaboo">
+			<UniqueIdentifier>{D08C6B6F-6EB4-4DEB-A3E1-1529E07E5B3D}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Peekaboo\GM.cpp">
+			<Filter>Source\Peekaboo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Peekaboo\GM.h">
+			<Filter>Source\Peekaboo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Peekaboo\GS.cpp">
+			<Filter>Source\Peekaboo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Peekaboo\GS.h">
+			<Filter>Source\Peekaboo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Peekaboo\PC.cpp">
+			<Filter>Source\Peekaboo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Peekaboo\PC.h">
+			<Filter>Source\Peekaboo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Peekaboo\PChar.cpp">
+			<Filter>Source\Peekaboo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Peekaboo\PChar.h">
+			<Filter>Source\Peekaboo</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Peekaboo\Peekaboo.Build.cs">
+			<Filter>Source\Peekaboo</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Peekaboo\Peekaboo.cpp">
+			<Filter>Source\Peekaboo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Peekaboo\Peekaboo.h">
+			<Filter>Source\Peekaboo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Peekaboo\PickUpBall.cpp">
+			<Filter>Source\Peekaboo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Peekaboo\PickUpBall.h">
+			<Filter>Source\Peekaboo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Peekaboo\PlayeDetails.cpp">
+			<Filter>Source\Peekaboo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Peekaboo\PlayeDetails.h">
+			<Filter>Source\Peekaboo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Peekaboo\PlayerDetailsForHighScore.cpp">
+			<Filter>Source\Peekaboo</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Peekaboo\PStart.cpp">
+			<Filter>Source\Peekaboo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Peekaboo\PStart.h">
+			<Filter>Source\Peekaboo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Peekaboo\PState.cpp">
+			<Filter>Source\Peekaboo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Peekaboo\PState.h">
+			<Filter>Source\Peekaboo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Peekaboo\UDPSender.cpp">
+			<Filter>Source\Peekaboo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Peekaboo\UDPSender.h">
+			<Filter>Source\Peekaboo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Peekaboo\UIGM.cpp">
+			<Filter>Source\Peekaboo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Peekaboo\UIGM.h">
+			<Filter>Source\Peekaboo</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
